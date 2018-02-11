@@ -1,0 +1,8 @@
+{
+  "name": "mutex",
+  "app_id": "23aae28a",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
