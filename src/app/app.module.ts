@@ -14,6 +14,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { Facebook } from '@ionic-native/facebook';
 
+import { Face } from '../facebook/face-try';
+
 
 @NgModule({
   declarations: [
@@ -41,6 +43,7 @@ import { Facebook } from '@ionic-native/facebook';
     StatusBar,
     SplashScreen,
     Facebook,
+    Face,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
